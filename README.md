@@ -19,7 +19,7 @@ function App() {
   function handleClick(event) {
     setHeading(name);
 
-    event.preventDefault();
+    event.preventDefault();  // This prevents the default action of form(refresh or get/post)
   }
 
   return (
